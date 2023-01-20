@@ -2,11 +2,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
+
 
 /*Barra de navegación*/
 
-/*Color título barra de navegación*/
+/*Título barra de navegación*/
 .color_text_1{
     color: #6251ff;
 }
@@ -15,20 +17,20 @@
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: 25px;
 }
-
+/*Barra*/
 .nav_lista{
+    width: 100%;
     position: fixed;
     background: white;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 120px;
     font-size: 20px;
-    gap: 150px;
-    box-shadow: 0px 1px 5px black;
+    gap: 145px;
+    box-shadow: 0px 0px 5px black;
 }
 
 .lista{
@@ -48,7 +50,7 @@
     color: #6251ff;
 }
 
-.nav_ingreso{
+.nav_login{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -68,26 +70,55 @@
 /*Articulo principal*/
 
 .articulo_principal{
-    padding-top: 60px;
-    width: 100%;
-    height: 100%;
-    margin: 50px 50px;
-
+    margin: 100px;
+    margin-left: 185px;
 }
-
 
 .eee{
     color: #6251ff;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
+    font-weight: lighter;
 }
 
-.parrafo_p{
-    font-size: 40px;
-
-    
+.parrafo_grande{
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 .color_parrafo{
     color: #6251ff;
+}
+
+.parrafo_pequeño{
+    font-size: 23px;
+    width: 500px;
+}
+
+.botones_abajo{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#b1{
+    background: #6251ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#b2{
+    background: white;
+    border: 1px solid #6251ff;
+    border-radius: 5px;
+    color: #6251ff;
+    margin-left: 20px;
+}
+
+.articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
 }
