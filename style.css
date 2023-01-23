@@ -71,13 +71,11 @@
 
 .articulo_principal{
     margin: 100px;
-    margin-left: 185px;
 }
 
 .eee{
     color: #2890E1;
     font-size: 30px;
-    display: flex;
     font-weight: lighter;
 }
 
@@ -128,7 +126,7 @@
 .features{
     background: #2890E1;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .features_titulo{
@@ -185,8 +183,57 @@
 /*About US*/
 
 .aboutus{
-    width: 100%;
-    height: 600px;
-    background: red;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.div_about{
+    width: 100%;
+    margin: 90px;
+}
+
+.titulo_about_1{
+    color: #2890E1;
+    font-size: 25px;
+}
+
+.parrafo_about_1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.parrafo_about_2{
+    font-size: 27px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.div_about_2{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+.titulo_about_2{
+    font-size: 30px;
+}
+
+.parrafo_about_3{
+    font-size: 27px;
+    color: grey;
+}
+
+.img_about{
+    margin-right: 100px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #2890E1;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
