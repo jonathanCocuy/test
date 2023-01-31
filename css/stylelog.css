@@ -12,6 +12,7 @@
 .color_text_1{
     color: #2890E1;
 }
+
 .color_text_2{
     color: black;
 }
@@ -39,7 +40,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav_a{
