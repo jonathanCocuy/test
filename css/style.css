@@ -1,8 +1,23 @@
+html{
+    width: 100%;
+}
+
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Barra de navegación (FIJA)*/
@@ -20,8 +35,14 @@
 }
 
 /*Barra*/
+
+.navegacion{
+    width: 100%;
+}
+
 .nav_lista{
     width: 100%;
+    padding: 0 10px;
     position: fixed;
     background: white;
     display: flex;
@@ -34,12 +55,13 @@
 
 .lista{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 35px;
 }
 
 .nav_a{
+    width: auto;
     text-decoration: none;
     color: black;
 }
@@ -51,6 +73,8 @@
 
 .nav_login{
     display: flex;
+    justify-content: center;
+    text-align: center;
     gap: 20px;
     align-items: center;
 }
@@ -72,8 +96,20 @@
 
 /*Articulo principal (Home)*/
 
+.articulo{
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+} 
+
 .articulo_principal{
-    margin: 100px;
+    margin: 150px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
 }
 
 .eee{
@@ -117,27 +153,27 @@
     margin-left: 20px;
 }
 
-.articulo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 100px;
-    width: 100%;
-} 
+.img_lateral{
+    margin: 100px;
+    width: 305px;
+}
 
 /*Features*/
 
 .features{
-    background: #2890E1;
+    background-color: #2890E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .features_titulo{
     text-align: center;
     color: white;
     font-size: 25px;
-    padding-top: 100px;
     font-weight: bolder;  
 }
 
@@ -171,6 +207,7 @@
     color:#2890E1;
     font-size: 20px;
     font-weight: bold;
+    box-shadow: 0px 0px 5px black;
 }
 
 .img_features{
@@ -188,8 +225,10 @@
 
 .aboutus{
     background: rgb(255, 255, 255);
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
